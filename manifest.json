@@ -1,0 +1,18 @@
+{
+    "name": "Kib Sample One",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Learning how to create a Chrome browser extension",
+    "icons": {
+        "64": "ic_home.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "ic_settings.png",
+        "default_title": "Randomize Font",
+        "default_popup": "popup.html"
+    }
+}
